@@ -1,36 +1,36 @@
 // var xhr = new XMLHttpRequest();
-//
-// window.onload = function () {
-//     const signIn = document.getElementById("signIn"),
-//         register = document.getElementById("register"),
-//         done = document.getElementById("done");
-//
-//     signIn.onclick = signInClick
-//     register.onclick = registerClick
-//     done.onclick = doneClick
-//   }
-//
+
+window.onload = function () {
+    const signIn = document.getElementById("signIn"),
+        register = document.getElementById("register"),
+        done = document.getElementById("done");
+
+    // signIn.onclick = signInClick
+    register.onclick = registerClick
+    // done.onclick = doneClick
+  }
+
 // signInClick = function() {
 //         const textField = document.getElementById("text-field");
 //
 //         debugger;
 //
 // }
-//
-// registerClick = function() {
-//     if (document.getElementById("register").innerText === "Register") {
-//         document.getElementById("register").innerText = "Login"
-//         document.getElementById("login-fields").classList.remove("move-right")
-//         document.getElementById("login-fields").classList.add("move-left")
-//         document.getElementById("login-green-msg").innerText = "Already have an account?"
-//     } else {
-//         document.getElementById("register").innerText = "Register"
-//         document.getElementById("login-green-msg").innerText = "Don't have an account?"
-//         document.getElementById("login-fields").classList.add("move-right")
-//     }
-//
-// }
-//
+
+registerClick = function() {
+    if (document.getElementById("register").innerText === "Register") {
+        document.getElementById("register").innerText = "Login"
+        document.getElementById("login-fields").classList.remove("move-right")
+        document.getElementById("login-fields").classList.add("move-left")
+        document.getElementById("login-green-msg").innerText = "Already have an account?"
+    } else {
+        document.getElementById("register").innerText = "Register"
+        document.getElementById("login-green-msg").innerText = "Don't have an account?"
+        document.getElementById("login-fields").classList.add("move-right")
+    }
+
+}
+
 // doneClick = function() {
 //     const fieldEmail = document.getElementById("text-field-email"),
 //     fieldNascimento = document.getElementById("text-field-nascimento"),
